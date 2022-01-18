@@ -1495,7 +1495,7 @@ class MartiniTopFile(object):
                 # Add explicitly specified constraints.
                 for fields in molecule_type.constraints:
                     atoms = [int(x) - 1 for x in fields[:2]]
-                    length = float(fields[2])
+                    length = float(fields[3])
                     sys.addConstraint(
                         base_atom_index + atoms[0], base_atom_index + atoms[1], length
                     )
