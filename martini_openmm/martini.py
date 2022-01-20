@@ -44,7 +44,7 @@ from simtk.openmm.app import PDBFile, Topology
 from simtk.openmm.app import amberprmtopfile as prmtop
 from simtk.openmm.app import element as elem
 from simtk.openmm.app import forcefield as ff
-from .vsites import LinearSite, OutOfPlane, VSiteManager, COMLinearSite
+from vsites import LinearSite, OutOfPlane, VSiteManager, COMLinearSite
 
 HBonds = ff.HBonds
 AllBonds = ff.AllBonds
